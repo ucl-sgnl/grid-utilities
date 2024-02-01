@@ -7,7 +7,7 @@ Sub Main
         xCol:=2, yCol:=1, zCol:=3, _
         NumCols:=361, NumRows:=181, _
         xMin:=-180, xMax:=180, yMin:=-90, yMax:=90, _
-        DupMethod:=srfDupAll, _
+        DupMethod:=srfDupNone, _
         ShepRange1:=100, ShepRange2:=100, _
         SearchAngle:=0, _
         Algorithm:="srfShepards", _
