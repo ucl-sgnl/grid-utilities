@@ -1,27 +1,4 @@
-# runBas.py
 
-# This python script uses Bas files to create grid files.
-# The script calls the Scripter program to execute each Bas file in the directory this script is located in.
-# Scripter must be included in the Windows path variable.
-# Bas files are identified as those with the .BAS extension.
-# Two implementations are available:
-
-#
-# python runBas.py <filename>
-# will call Scripter to execute the specified Bas file.
-
-# 
-# python runBas.py
-# will call Scripter to execute all Bas files in the current directory. 
-
-#
-# This version does not provide for any status or feedback of Scripter executions.
-# Bas files which fail to execute will cause Scripter to halt.  The file may be corrected
-# in Scripter and run, or closed.  After this instance of Scripter has been closed the 
-# script will continue calling instances of Scripter to execute the remaining Bas files.
-#
-
-# created November 18, 2012 - Shawn Allgeier
 import sys # for input arguments.
 arguments = sys.argv
 

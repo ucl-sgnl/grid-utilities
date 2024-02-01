@@ -3,7 +3,7 @@ Sub Main
     Dim SurferApp As Object
     Set SurferApp = CreateObject("Surfer.Application")
     SurferApp.Visible = False
-    SurferApp.GridData2(DataFile:="combi_padded.txt", _
+    SurferApp.GridData2(DataFile:="c:\Users\sgnl\Downloads\combi_padded.txt", _
         xCol:=2, yCol:=1, zCol:=3, _
         NumCols:=361, NumRows:=181, _
         xMin:=-180, xMax:=180, yMin:=-90, yMax:=90, _
@@ -15,6 +15,6 @@ Sub Main
         ShepWeightingNeighbors:=12, _
         ShepSmoothFactor:=0, _
         ShowReport:=no, _
-        OutGrid:="/Users/charlesc/Documents/GitHub/grid-utilities/yfiles/binary.grd")
-    SurferApp.GridConvert("/Users/charlesc/Documents/GitHub/grid-utilities/yfiles/binary.grd", "/Users/charlesc/Documents/GitHub/grid-utilities/yfiles/noref_GPSIIF_v06Y-R100-Q19W12S0.grd", OutFmt:=srfGridFmtAscii)
+        OutGrid:="c:\Users\sgnl\Downloads\binary.grd")
+    SurferApp.GridConvert("c:\Users\sgnl\Downloads\binary.grd", "c:\Users\sgnl\Downloads\noref_GPSIIF_v06Y-R100-Q19W12S0.grd", OutFmt:=srfGridFmtAscii)
 End Sub
