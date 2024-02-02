@@ -25,4 +25,3 @@ In this way, zcol=4 would use the y-component and zcol=5 would use the z-compone
 python runBAS.py
  
 5. After the grid files are generated there is an additional script to run: surfer6poleReplicate.py, this is to ensure that the values at the poles are the correct values.
- 
